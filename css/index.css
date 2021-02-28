@@ -1,0 +1,233 @@
+/* main开始 */
+main{
+    height: 455px;
+    width: 980px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+.focus{
+    float: left;
+    height: 455px;
+    width: 720px;
+}
+.newflash{
+    position: relative;
+    float: right;
+    height: 455px;
+    margin-left: 10px;
+    width: 250px;
+}
+.newflash .news{
+    height: 165px;
+    border: solid 1px #e5e5e5;
+}
+.newflash .news dt{
+    margin-left: 14px;
+    height: 30px;
+    line-height: 35px;
+    font-size: 12px;
+    border-bottom: dotted 1px #e5e5e5;
+}
+.newflash .news dt .more{
+    position: absolute;
+    right: 15px;
+    font-weight: normal;
+    top: -2px;
+}
+.newflash .news dt .more::after{
+    font-family: 'icomoon';
+    content: "";
+    margin-left: 3px;
+    margin-top: 10px;
+}
+.newflash .news dd{
+    width: 185px;
+    margin-left: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.newflash .news span{
+    font-weight: bolder;
+}
+.newflash .news dd{
+    height: 24px;
+    line-height: 24px;
+}
+.newflash .news dd:first-of-type{
+    margin-top: 8px;
+}
+.lifeservise{
+    overflow: hidden;
+    height:209px;
+    border: solid 1px #e5e5e5;
+    margin-top: 0;
+}
+.lifeservise ul{
+    width: 252px;
+}
+.lifeservise ul li{
+    float: left;
+    width: 63px;
+    height: 70px;
+    background: url(../images/icons.png) no-repeat;
+    background-color: white;
+    color: black;
+    border-bottom: solid 1px #e5e5e5;
+    border-right: solid 1px #e5e5e5;
+}
+.lifeservise ul li p{
+    text-align: center;
+    line-height: 105px;
+}
+.bargain{
+    margin-top: 5px;
+}
+/* main结束 */
+/* 推荐模块开始 */
+.recom{
+    margin-top: 10px;
+    height: 160px;
+}
+.recom_hd{
+    float: left;
+    width: 205px;
+    height: 160px;
+    text-align: center;
+    background-color: #5c5251;
+}
+.recom_hd img{
+    margin-top:35px;
+}
+.recom_bd{
+    float: left;
+    width:995px;
+    background-color: #ebebeb;
+}
+.recom_bd ul li{
+    position: relative;
+    overflow: hidden;
+    float: left;
+    width: 245px;
+    height: 160px;
+}
+.recom_bd ul li:nth-child(-n+3)::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    height: 145px;
+    width: 1px;
+    top: 10px;
+    background-color: #dddddd;
+}
+/* floor开始 */
+.floor1{
+    margin-top: 25px;
+    height: 361px;
+}
+.floor1 .box_hd h2{
+    float: left;
+    font-weight: normal;
+    color: #c71515;
+}
+.floor1 .box_hd{
+    height: 30px;
+    border-bottom: 2px solid #c71515;
+}
+.tab_list{
+    float: right;
+    margin-top: 5px;
+}
+.tab_list li{
+    position: relative;
+    float: left;
+}
+.tab_list li a{
+    margin: 0 15px;
+}
+.tab_list li::after{
+    content: '';
+    position: absolute;
+    height: 10px;
+    top: 5px;
+    width: 1px;
+    right: 0;
+    background-color: #666666;
+}
+.floor1 .box_hd ul li:last-child::after{
+    width: 0;
+}
+.div1 ul li{
+    float: left;
+    width: 85px;
+    height: 31px;
+    text-align: center;
+    margin-right: 10px;
+    line-height: 31px;
+    border-bottom: solid 1px gray;
+}
+.div1 ul{
+    margin:0 auto;
+    width: 210px;
+    height: 100px;
+    margin-left: 15px;
+}
+.box_bd{
+    height: 361px;
+}
+.tab_content>div{
+    height: 361px;
+    float: left;
+}
+.gg{
+    height: 65px;
+    background-color: black;
+}
+.div1{
+    text-align: center;
+    width:210px;
+    background-color:#f9f9f9 ;
+}
+.div2{
+    width: 329px;
+}
+.div3{
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+.div4{
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+.div5{
+    width: 219px;
+}
+.bb{
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+.gg{
+    margin-top: 60px;
+    height: 60px;
+    background-color: pink;
+}
+.flo_box{
+    position: fixed;
+    top: 150px;
+    left: 2%;
+    background-color: white;
+    z-index: 1;
+}
+.flo_box ul li a{
+    padding: 10px 8px;
+}
+.flo_box ul li{
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #ccc;
+}
+.flo_box ul li a:hover{
+    color: white;
+    background-color: #c71515;
+}
+

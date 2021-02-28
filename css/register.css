@@ -1,0 +1,116 @@
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+.header .logo{
+    padding-top: 10px;
+}
+.registereara{
+    height: 522px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.registereara h3{
+    height: 41px;
+    line-height: 41px;
+    border-bottom:1px solid #ccc;
+    background-color: #ececec;
+    font-weight: 400;
+    color: black;
+}
+.lef{
+    float: left;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.rig{
+    float: right;
+    margin-right: 10px;
+    font-weight: 14px;
+}
+.rig a{
+    color: #c81523;
+}
+.reg_form{
+    width: 600px;
+    margin: 50px auto;
+    margin-left: 350px;
+}
+.reg_form ul li{
+    margin-top: 10px;
+}
+.reg_form ul li label{
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+.reg_form ul li .inp{
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc ;
+}
+.reg_form ul li span::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    background: url("../images/error.png");
+    vertical-align: middle;
+}
+.reg_form ul li span{
+    color: red;
+}
+.safe{
+    margin-left: 146px;
+    color: #ccc;
+    font-size: 14px;
+}
+.safe em{
+    display: inline-block;
+    font-size: 10px;
+    padding: 0 15px;
+    text-align: center;
+    background-color: red;
+}
+.safe em:nth-child(2n){
+    background-color: green;
+}
+.safe em:last-child{
+    background-color: yellow;
+}
+.xieyi{
+    padding: 20px;
+    padding-left: 90px;
+}
+.xieyi a{
+    color: skyblue;
+}
+.xieyi input{
+    vertical-align: middle;
+}
+.reg_form ul li button{
+    width: 150px;
+    height: 25px;
+    margin-top: 15px;
+    color: white;
+    background-color: #c81523;
+    margin-left: 125px;
+}
+footer {
+    text-align: center;
+}
+.mod_copyright{
+    margin-top: 10px;
+}
+.mod_copyright .links a{
+    padding: 0 10px;
+}
+.copyright{
+    margin-top: 5px;
+}

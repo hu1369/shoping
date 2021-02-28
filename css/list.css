@@ -1,0 +1,51 @@
+.miaosha{
+    position: absolute;
+    float: left;
+    padding: 5px 10px;
+    left: 190px;
+    margin-top: 35px;
+    border-left: solid 2px #b1191a;
+}
+.sk_list ul li{
+    float: left;
+}
+.sk_list ul li h4{
+    color: black;
+    font-weight: bolder;
+    padding: 0 30px;
+    line-height: 45px;
+}
+.sk_con{
+    float: right;
+    margin-right: 160px;
+}
+.sk_con ul li{
+    float: left;
+}
+.sk_con ul li a{
+    padding: 0px 20px;
+    line-height: 45px;
+}
+.sk_con ul li:last-child a::after{
+    font-family: 'icomoon';
+    content: "";
+    line-height: 45px;
+} 
+.sk_container .sk_bd{
+    margin-top: 10px;
+    width: 100%;
+}
+.sk_container .sk_bd ul li{
+    overflow: hidden;
+    float: left;
+    margin-right: 13px;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+}
+.sk_container .sk_bd ul li:hover{
+    border: 1px solid #b1191a ;
+}
+.sk_container .sk_bd ul li:nth-child(4n){
+    margin-right: 0;
+}
